@@ -8,7 +8,7 @@ export default function Home() {
       <section className="h-screen relative flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/hero-bg.jpg"
+            src="/hero-bg.jpeg"
             alt="Luxury watch and shoes"
             fill
             className="object-cover brightness-75"
@@ -16,7 +16,7 @@ export default function Home() {
           />
         </div>
         <div className="z-10 text-center text-white">
-          <h1 className="text-6xl font-light mb-4">CHRONOSTEP</h1>
+            <h1 className="text-6xl font-bold mb-4">CHRONOSTEP</h1>
           <p className="text-xl font-light mb-8">Timeless Elegance for Your Wrist and Feet</p>
           <Link 
             href="/collections"
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="relative h-[600px] group cursor-pointer">
             <Image
-              src="/watches.jpg"
+              src="/watches.jpeg"
               alt="Luxury watches"
               fill
               className="object-cover"
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="relative h-[600px] group cursor-pointer">
             <Image
-              src="/shoes.jpg"
+              src="/shoes.jpeg"
               alt="Designer shoes"
               fill
               className="object-cover"
